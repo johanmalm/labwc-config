@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_config>
+
+<lab>
+  <xdg_shell_server_side_deco>yes</xdg_shell_server_side_deco>
+</lab>
+
+<theme>
+  <name>Clearlooks-3.4</name>
+  <font place="ActiveWindow"><name>Sans</name><size>12</size></font>
+</theme>
+
+<keyboard>
+  <keybind key="A-Escape"><action name="Exit"/></keybind>
+  <keybind key="A-Tab"><action name="NextWindow"/></keybind>
+  <keybind key="A-F2"><action name="NextWindow"/></keybind>
+  <keybind key="A-F3"><action name="Execute"><command>dmenu_run</command></action></keybind>
+  <keybind key="A-F12"><action name="Debug"/></keybind>
+</keyboard>
+
+</openbox_config>
