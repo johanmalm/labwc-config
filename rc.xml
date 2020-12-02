@@ -15,6 +15,7 @@
   <keybind key="A-Tab"><action name="NextWindow"/></keybind>
   <keybind key="A-F2"><action name="NextWindow"/></keybind>
   <keybind key="A-F3"><action name="Execute"><command>bemenu-run</command></action></keybind>
+  <keybind key="W-Space"><action name="ShowMenu"><menu>root-menu</menu></action></keybind>
 </keyboard>
 
 </openbox_config>
